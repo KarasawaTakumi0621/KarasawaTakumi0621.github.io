@@ -74,3 +74,7 @@ ul.margin li{
   top:10%;
   transform: translateY(-50%);
 }
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #FFFFFF; }
+a:active { color: #ff8000; }
