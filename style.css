@@ -1,29 +1,42 @@
+@font-face {
+  font-family: 'shincomic';
+  src:url("fonts/shincomic.otf");
+  font-family: 'Hannari';
+  src: url("fonts/Hannari.otf");
+}
 body{
-  background-image: linear-gradient(-90deg, #FFFFFF, #3B3B40);
-  font-family: 'Lustria', serif;
-  /*font-family: 'Press Start 2P', cursive;*/
+  /*background-image: linear-gradient(-90deg, #FFFFFF, #3B3B40);*/
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  font-family: Hannari;
+  /*font-family: 'Lustria', serif;
+  font-family: 'Press Start 2P', cursive;*/
 }
 h1{
     text-align: center;
-    color: #000;
+    /*color: #fff;*/
+    color: rgba(0, 254, 0, 0.9);
     font-size: 50px;
     font-weight: bold;
-    text-shadow: 5px 5px 1px #999999;
+    text-shadow: 5px 5px 1px #008000;
 }
 #circle{
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   margin: 0px auto;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50;
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   font-size: 20px;
-  color: #FFFFFF;
+  color: rgba(0, 254, 0, 0.9);
   /*border: 3px solid #C0C0C0;*/
-  border: 3px solid #000000;
+  border: 3px solid #C0C0C0;
   padding: 3px;
   box-shadow: 0px 0px 3px 3px #3F3F3F;
   -moz-box-shadow: 0px 0px 3px 3px #3F3F3F;
@@ -34,15 +47,20 @@ h1{
 }
 #circle p{
   position: relative;
-  top:10%;
+  top: -30%;
   transform: translateY(-50%);
 }
 .volvox {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-weight: bold;
+  color: rgba(0, 254, 0, 0.7);;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
   height: 50%;
+  border-radius: 20px;
 }
 ul.margin li{
   margin-bottom: 10px;
@@ -75,6 +93,6 @@ ul.margin li{
   transform: translateY(-50%);
 }
 a:link { color: #0000ff; }
-a:visited { color: #000080; }
+a:visited { color: #66CCFF; }
 a:hover { color: #FFFFFF; }
 a:active { color: #ff8000; }
