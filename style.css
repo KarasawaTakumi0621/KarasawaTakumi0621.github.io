@@ -3,6 +3,8 @@
   src:url("fonts/shincomic.otf");
   font-family: 'Hannari';
   src: url("fonts/Hannari.otf");
+  font-family: 'dot';
+  src: url("fonts/elisab10.fnt");
 }
 html{
   min-height: 100%;
@@ -30,6 +32,7 @@ h1{
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   margin: 0px auto;
+  margin-top: 10px;
   width: 100px;
   height: 30px;
   border-radius: 10px;
@@ -61,10 +64,12 @@ h1{
   color: rgba(0, 254, 0, 0.7);;
   font-size: 20px;
   margin-left: auto;
+  margin-top: 10px;
   margin-right: auto;
   width: 50%;
   height: 50%;
   border-radius: 20px;
+  border-style: groove;
 }
 ul.margin li{
   margin-bottom: 10px;
