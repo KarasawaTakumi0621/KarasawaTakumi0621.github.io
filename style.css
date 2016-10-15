@@ -68,10 +68,16 @@ h1{
   margin-left: auto;
   margin-top: 10px;
   margin-right: auto;
-  width: 50%;
+  width: 55%;
   height: 50%;
   border-radius: 20px;
   border-style: groove;
+}
+ul{
+ list-style-type: none;
+}
+li{
+ list-style-type: none;
 }
 ul.margin li{
   margin-bottom: 10px;
